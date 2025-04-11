@@ -67,17 +67,12 @@
             margin: 10px;
             border: 1px solid #6c757d;
         }
-
- 
     </style>
 </head>
-
-
 <body>
     <header>
         <nav>
             <!-- Dropdown de Contenido -->
-
             <div class="dropdown">
                 <a class="dropdown-toggle text-white text-decoration-none" href="#" role="button" id="contenidoDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                     Contenido
@@ -90,74 +85,72 @@
                     <li><a class="dropdown-item" href="cultura.html" target="_blank">Cultura</a></li>
                 </ul>
             </div>
-
-
-<div class="dropdown">
-    <a class="dropdown-toggle text-white text-decoration-none" href="#" role="button" id="videojuegosDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-        Videojuegos
-    </a>
-    <ul class="dropdown-menu dropdown-menu-dark p-3" aria-labelledby="videojuegosDropdown" style="width: 500px;">
-        <!-- Pestañas (tabs) -->
-        <ul class="nav nav-tabs" id="haloTabs" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="ce-tab" data-bs-toggle="tab" data-bs-target="#ce" type="button" role="tab">Halo: CE</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="h2-tab" data-bs-toggle="tab" data-bs-target="#h2" type="button" role="tab">Halo 2</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="h3-tab" data-bs-toggle="tab" data-bs-target="#h3" type="button" role="tab">Halo 3</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="h4-tab" data-bs-toggle="tab" data-bs-target="#h4" type="button" role="tab">Halo 4</button>
-            </li>
-        </ul>
-
-        <!-- Contenido de las pestañas -->
-        <div class="tab-content p-2" id="haloTabsContent">
-            <!-- Halo: CE -->
-            <div class="tab-pane fade show active" id="ce" role="tabpanel" aria-labelledby="ce-tab">
-                <h5 class="mt-2">Halo: Combat Evolved <small class="text-muted">(2001)</small></h5>
-                <p>El Jefe Maestro descubre el anillo Halo y lucha contra el Covenant y los Flood. Debe destruirlo para salvar la galaxia.</p>
-                <ul>
-                    <li><strong>Personajes:</strong> Jefe Maestro, Cortana, 343 Guilty Spark.</li>
-                    <li><strong>Innovación:</strong> Primer shooter en consolas con mira automática.</li>
+            
+            <div class="dropdown">
+                <a class="dropdown-toggle text-white text-decoration-none" href="#" role="button" id="videojuegosDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    Videojuegos
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark p-3" aria-labelledby="videojuegosDropdown" style="width: 500px;">
+                    <!-- Pestañas (tabs) -->
+                    <ul class="nav nav-tabs" id="haloTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="ce-tab" data-bs-toggle="tab" data-bs-target="#ce" type="button" role="tab">Halo: CE</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="h2-tab" data-bs-toggle="tab" data-bs-target="#h2" type="button" role="tab">Halo 2</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="h3-tab" data-bs-toggle="tab" data-bs-target="#h3" type="button" role="tab">Halo 3</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="h4-tab" data-bs-toggle="tab" data-bs-target="#h4" type="button" role="tab">Halo 4</button>
+                        </li>
+                    </ul>
+            
+                    <!-- Contenido de las pestañas -->
+                    <div class="tab-content p-2" id="haloTabsContent">
+                        <!-- Halo: CE -->
+                        <div class="tab-pane fade show active" id="ce" role="tabpanel" aria-labelledby="ce-tab">
+                            <h5 class="mt-2">Halo: Combat Evolved <small class="text-muted">(2001)</small></h5>
+                            <p>El Jefe Maestro descubre el anillo Halo y lucha contra el Covenant y los Flood. Debe destruirlo para salvar la galaxia.</p>
+                            <ul>
+                                <li><strong>Personajes:</strong> Jefe Maestro, Cortana, 343 Guilty Spark.</li>
+                                <li><strong>Innovación:</strong> Primer shooter en consolas con mira automática.</li>
+                            </ul>
+                        </div>
+            
+                        <!-- Halo 2 -->
+                        <div class="tab-pane fade" id="h2" role="tabpanel" aria-labelledby="h2-tab">
+                            <h5 class="mt-2">Halo 2 <small class="text-muted">(2004)</small></h5>
+                            <p>El Covenant ataca la Tierra. Juegas como el Jefe Maestro y el Inquisidor en una historia de redención.</p>
+                            <ul>
+                                <li><strong>Personajes:</strong> Inquisidor, Profeta de la Verdad.</li>
+                                <li><strong>Innovación:</strong> Dual-wielding (empuñar dos armas).</li>
+                            </ul>
+                        </div>
+            
+                        <!-- Halo 3 -->
+                        <div class="tab-pane fade" id="h3" role="tabpanel" aria-labelledby="h3-tab">
+                            <h5 class="mt-2">Halo 3 <small class="text-muted">(2007)</small></h5>
+                            <p>Batalla final en la Tierra y el Arca para detener al Profeta de la Verdad y los Flood.</p>
+                            <ul>
+                                <li><strong>Personajes:</strong> Gravemind, Sargento Johnson.</li>
+                                <li><strong>Innovación:</strong> Gráficos HD y Forge (editor de mapas).</li>
+                            </ul>
+                        </div>
+            
+                        <!-- Halo 4 -->
+                        <div class="tab-pane fade" id="h4" role="tabpanel" aria-labelledby="h4-tab">
+                            <h5 class="mt-2">Halo 4 <small class="text-muted">(2012)</small></h5>
+                            <p>El Jefe Maestro despierta en Requiem para enfrentar al Didacta y salvar a Cortana del rampantismo.</p>
+                            <ul>
+                                <li><strong>Personajes:</strong> Didacta, Prometeos.</li>
+                                <li><strong>Innovación:</strong> Nueva saga (Reclaimer Trilogy).</li>
+                            </ul>
+                        </div>
+                    </div>
                 </ul>
             </div>
-
-            <!-- Halo 2 -->
-            <div class="tab-pane fade" id="h2" role="tabpanel" aria-labelledby="h2-tab">
-                <h5 class="mt-2">Halo 2 <small class="text-muted">(2004)</small></h5>
-                <p>El Covenant ataca la Tierra. Juegas como el Jefe Maestro y el Inquisidor en una historia de redención.</p>
-                <ul>
-                    <li><strong>Personajes:</strong> Inquisidor, Profeta de la Verdad.</li>
-                    <li><strong>Innovación:</strong> Dual-wielding (empuñar dos armas).</li>
-                </ul>
-            </div>
-
-            <!-- Halo 3 -->
-            <div class="tab-pane fade" id="h3" role="tabpanel" aria-labelledby="h3-tab">
-                <h5 class="mt-2">Halo 3 <small class="text-muted">(2007)</small></h5>
-                <p>Batalla final en la Tierra y el Arca para detener al Profeta de la Verdad y los Flood.</p>
-                <ul>
-                    <li><strong>Personajes:</strong> Gravemind, Sargento Johnson.</li>
-                    <li><strong>Innovación:</strong> Gráficos HD y Forge (editor de mapas).</li>
-                </ul>
-            </div>
-
-            <!-- Halo 4 -->
-            <div class="tab-pane fade" id="h4" role="tabpanel" aria-labelledby="h4-tab">
-                <h5 class="mt-2">Halo 4 <small class="text-muted">(2012)</small></h5>
-                <p>El Jefe Maestro despierta en Requiem para enfrentar al Didacta y salvar a Cortana del rampantismo.</p>
-                <ul>
-                    <li><strong>Personajes:</strong> Didacta, Prometeos.</li>
-                    <li><strong>Innovación:</strong> Nueva saga (Reclaimer Trilogy).</li>
-                </ul>
-            </div>
-        </div>
-    </ul>
-</div>
-                 
 
             <a href="#" data-bs-toggle="modal" data-bs-target="#referenciasModal">Referencias</a>
             <a href="#" data-bs-toggle="modal" data-bs-target="#contactoModal">Contacto</a>
