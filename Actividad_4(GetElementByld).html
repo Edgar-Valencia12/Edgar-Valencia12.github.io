@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Unidad 3 | Actividad 04</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="utf-8">
+        <meta name="Autor" content="Edgar Lorenzo Valencia Meidna">
+        <meta name="Fecha" content="07 de mayo del 2025">
+        <meta name="Descripcion" content="JavaScript">
+        <style>
+            i{text-transform: uppercase; color: white; background-color: navy;}
+        </style>
+    </head>
+    <body>
+        <h1>Unidad 3 | Actividad 04 :: Tema (JavaScript)</h1>
+        <ol>
+            <li id="valor_1"> <strong> UPSLP </strong></li>
+            <li id="valor_2"></li> <li id="valor_3"></li> <li id="valor_4"></li> <li id="valor_5"></li> <li id="valor_6"></li>
+            <li id="valor_7"> <strong> ITESM (<i> Campus San Luis Potosi</i>)</strong></li>
+            <li id="valor_8"></li> <li id="valor_9"></li> <li id="valor_10"></li>
+        </ol>
+        <script>
+            //Asignar contenido
+            document.getElementById("Valor_2").textContent = 'UCEM';
+            //Recuperar contenido
+            let varTemp = document.getElementById("Valor_1").textContent;
+            document.getElementById("Valor_3").textContent = varTemp + "!!!";
+            //text content
+            varTemp = document.getElementById("Valor_7").textContent;
+            document.getElementById("Valor_8").textContent = varTemp;
+            //innerText
+            varTemp = document.getElementById("Valor_7").innerText;
+            document.getElementById("Valor_9").innerText = varTemp;
+            //innerHTML
+            varTemp = document.getElementById("Valor_7").innerHTML;
+            document.getElementById("Valor_10").innerHTML = varTemp;
+        </script>
+    </body>
+</html>
