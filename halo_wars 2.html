@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Halo Wars 2 - Halo Universe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('halo_wars2_bg.jpg') center center / cover no-repeat fixed;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            min-height: 100vh;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.65);
+            z-index: -1;
+        }
+        .navbar {
+            background-color: #000000e0;
+        }
+        .hero {
+            background: url('halo_wars2_banner.jpg') center center / cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #00ffea;
+            position: relative;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        h1,
+        h2 {
+            color: #00ffea;
+        }
+        .content-section {
+            padding: 60px 0;
+        }
+        .footer {
+            background-color: #000000e0;
+            padding: 20px;
+            color: #777;
+        }
+        a {
+            color: #00bfff;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="Halo.html">Halo Universe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Halo.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#info">Información</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Halo Wars 2</h1>
+            <p>La estrategia en tiempo real en el universo Halo</p>
+        </div>
+    </section>
+
+    <section class="content-section" id="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="atriox.jpg" class="img-fluid rounded" alt="Atriox - Halo Wars 2" />
+                </div>
+                <div class="col-md-6">
+                    <h2>Sobre Halo Wars 2</h2>
+                    <p>
+                        <strong>Halo Wars 2</strong> regresa al estilo de estrategia en tiempo real. La nave Spirit of Fire despierta tras décadas de hibernación y descubre a una nueva amenaza: los Desterrados, liderados por Atriox. Este juego combina táctica militar con narrativa, situándose en el Arca, una instalación Forerunner clave para el destino de la galaxia.
+                    </p>
+                    <p>
+                        <strong>Fecha de lanzamiento:</strong> 21 de febrero de 2017<br />
+                        <strong>Desarrollador:</strong> 343 Industries, Creative Assembly<br />
+                        <strong>Plataformas:</strong> Xbox One, PC
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h2>Detalles adicionales</h2>
+                    <p><strong>Historia y narrativa:</strong> Continua la historia de Halo Wars, centrándose en los enfrentamientos con los Desterrados y la supervivencia de la humanidad.</p>
+                    <p><strong>Gameplay y mecánicas:</strong> Estrategia en tiempo real con gestión de recursos, construcción de bases y unidades, con un enfoque en la rapidez y táctica.</p>
+                    <p><strong>Multijugador:</strong> Competitivo y cooperativo, con mapas variados y modos de juego dinámicos.</p>
+                    <p><strong>Aspectos técnicos y artísticos:</strong> Mejora visual respecto a su predecesor, con música épica y efectos visuales inmersivos.</p>
+                    <p><strong>Recepción:</strong> Muy bien recibido por fanáticos del género y la franquicia, destacando la jugabilidad y la fidelidad al universo Halo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <!-- Imagen lateral -->
+                <div class="col-md-6 mb-4">
+                    <img src="Halo Wars GIF by Halo.gif"img-fluid rounded" alt="Gameplay Halo Wars 2" />
+                </div>
+
+                <!-- Tabla informativa -->
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <div class="table-responsive" style="max-width: 320px;">
+                        <table
+                            class="table table-borderless text-white"
+                            style="background-color: transparent; font-size: 0.85rem; line-height: 1.2;"
+                        >
+                            <thead>
+                                <tr>
+                                    <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">
+                                        Información General
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="text-center">Desarrollador</td><td class="text-center">343 Industries, Creative Assembly</td></tr>
+                                <tr><td class="text-center">Distribuidor</td><td class="text-center">Microsoft Studios</td></tr>
+                                <tr><td class="text-center">Compositor</td><td class="text-center">Stephen Rippy</td></tr>
+
+                                <tr>
+                                    <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">
+                                        Datos del Juego
+                                    </th>
+                                </tr>
+                                <tr><td class="text-center">Género</td><td class="text-center">Estrategia en tiempo real</td></tr>
+                                <tr><td class="text-center">Modos</td><td class="text-center">Un jugador, Multijugador cooperativo y competitivo</td></tr>
+                                <tr><td class="text-center">Clasificaciones</td><td class="text-center">ESRB: T, PEGI: 16</td></tr>
+
+                                <tr>
+                                    <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">
+                                        Plataformas y Hardware
+                                    </th>
+                                </tr>
+                                <tr><td class="text-center">Plataformas</td><td class="text-center">Xbox One, PC</td></tr>
+                                <tr><td class="text-center">Formato</td><td class="text-center">Digital y físico</td></tr>
+                                <tr><td class="text-center">Entrada</td><td class="text-center">Xbox Controller, teclado y ratón</td></tr>
+
+                                <tr>
+                                    <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">
+                                        Lanzamiento
+                                    </th>
+                                </tr>
+                                <tr><td class="text-center">Global</td><td class="text-center">21 de febrero de 2017</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                    <img src="Halo Wars GIF by Halo2.gif"img-fluid rounded" alt="Gameplay Halo Wars 2" />
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer text-center">&copy; 2025 Halo Universe.</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Halo 4 - Halo Universe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('MasterChief_Halo4.png') center center / cover no-repeat fixed;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            min-height: 100vh;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.65);
+            z-index: -1;
+        }
+        .navbar {
+            background-color: #000000e0;
+        }
+        .hero {
+            background: url('halo4_banner.jpg') center center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #00ffea;
+            position: relative;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        h1,
+        h2 {
+            color: #00ffea;
+        }
+        .content-section {
+            padding: 60px 0;
+        }
+        .footer {
+            background-color: #000000e0;
+            padding: 20px;
+            color: #777;
+        }
+        a {
+            color: #00bfff;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="Halo.html">Halo Universe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Halo.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#info">Información</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Halo 4</h1>
+            <p>El renacer del Jefe Maestro</p>
+        </div>
+    </section>
+
+    <section class="content-section" id="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Halo4.jpg" class="img-fluid rounded" alt="Halo 4" />
+                </div>
+                <div class="col-md-6">
+                    <h2>Sobre Halo 4</h2>
+                    <p>
+                        <strong>Halo 4</strong> es el comienzo de una nueva saga, desarrollada por 343 Industries y lanzada en 2012.
+                        Retomando la historia del Jefe Maestro tras los eventos de Halo 3, enfrenta nuevas amenazas como los Forerunners y el Didacta.
+                    </p>
+                    <p>
+                        Con mejoras gráficas sustanciales, una narrativa más emotiva y un enfoque renovado en el desarrollo de personajes,
+                        Halo 4 marcó el inicio de la Saga del Reclamador.
+                    </p>
+                    <p>
+                        <strong>Fecha de lanzamiento:</strong> 6 de noviembre de 2012<br />
+                        <strong>Desarrollador:</strong> 343 Industries<br />
+                        <strong>Plataformas:</strong> Xbox 360, PC (MCC), Xbox One (MCC)
+                    </p>
+                </div>
+            </div>
+
+            <!-- Nueva sección con información ampliada -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h2>Detalles adicionales</h2>
+                    <p><strong>Historia y narrativa:</strong> Halo 4 retoma la historia del Jefe Maestro cuatro años después de Halo 3, enfrentándose a los Forerunners y al Didacta, mientras profundiza en su relación con Cortana.</p>
+                    <p><strong>Gameplay y mecánicas:</strong> Añade nuevas habilidades como sprint y mejora el sistema de escudos, con niveles variados que combinan combate y exploración.</p>
+                    <p><strong>Multijugador:</strong> Incluye mapas nuevos y clásicos, personalización avanzada y el modo War Games para batallas competitivas.</p>
+                    <p><strong>Aspectos técnicos y artísticos:</strong> Primer título desarrollado por 343 Industries con mejoras gráficas significativas y banda sonora de Neil Davidge.</p>
+                    <p><strong>Recepción:</strong> Recibió críticas positivas, destacando la narrativa y multijugador, aunque generó debate entre los fans por algunos cambios en la jugabilidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <!-- Imagen lateral -->
+                <div class="col-md-6 mb-4">
+                    <img src="Halo4IMG1.jpeg" class="img-fluid rounded" alt="Halo 4 Gameplay" />
+                </div>
+
+                <!-- Tabla informativa -->
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <div class="table-responsive" style="max-width: 320px;">
+                        <table
+                            class="table table-borderless text-white"
+                            style="background-color: transparent; font-size: 0.85rem; line-height: 1.2;"
+                        >
+                            <thead>
+                                <tr>
+                                    <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">
+                                        Información General
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="text-center">Desarrollador</td><td class="text-center">343 Industries</td></tr>
+                                <tr><td class="text-center">Distribuidor</td><td class="text-center">Microsoft Studios</td></tr>
+                                <tr><td class="text-center">Compositor</td><td class="text-center">Neil Davidge</td></tr>
+
+                                <tr>
+                                    <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">
+                                        Datos del Juego
+                                    </th>
+                                </tr>
+                                <tr><td class="text-center">Género</td><td class="text-center">FPS, ciencia ficción</td></tr>
+                                <tr><td class="text-center">Modos</td><td class="text-center">Un jugador, Multijugador, Spartan Ops</td></tr>
+                                <tr><td class="text-center">Clasificaciones</td><td class="text-center">ESRB: M, PEGI: 16</td></tr>
+
+                                <tr>
+                                    <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">
+                                        Plataformas y Hardware
+                                    </th>
+                                </tr>
+                                <tr><td class="text-center">Plataformas</td><td class="text-center">Xbox 360, Xbox One (MCC), PC (MCC)</td></tr>
+                                <tr><td class="text-center">Formato</td><td class="text-center">DVD-9</td></tr>
+                                <tr><td class="text-center">Entrada</td><td class="text-center">Xbox 360 Controller</td></tr>
+
+                                <tr>
+                                    <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">
+                                        Lanzamiento
+                                    </th>
+                                </tr>
+                                <tr><td class="text-center">JP</td><td class="text-center">8 de noviembre de 2012</td></tr>
+                                
+                                <tr><td class="text-center">EU</td><td class="text-center">6 de noviembre de 2012</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-center">&copy; 2025 Halo Universe.</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

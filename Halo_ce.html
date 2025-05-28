@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo CE - Halo Universe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('CombatEvold.png') center center / cover no-repeat fixed;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        .navbar {
+            background-color: #000000e0;
+        }
+
+        .hero {
+            background: url('haloce_banner.jpg') center center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #0059ff;
+            position: relative;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.438);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        h1, h2 {
+            color: #003cff;
+        }
+
+        .content-section {
+            padding: 60px 0;
+        }
+
+        .footer {
+            background-color: #000000e0;
+            padding: 20px;
+            color: #777;
+        }
+
+        a {
+            color: #00bfff;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="Halo.html">Halo Universe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Halo.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Halo: Combat Evolved</h1>
+            <p>El inicio de la leyenda</p>
+        </div>
+    </section>
+
+    <!-- Sección de contenido principal -->
+    <section class="content-section" id="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="HaloCombatEvold.png" class="img-fluid rounded" alt="Halo CE Gameplay">
+                </div>
+                <div class="col-md-6">
+                    <h2>Sobre Halo CE</h2>
+                    <p>
+                        <strong>Halo: Combat Evolved</strong>, lanzado en 2001 por Bungie, revolucionó el género de disparos en primera persona en consolas.
+                        Nos presentó al legendario Jefe Maestro y al universo de Halo, en una lucha desesperada por la supervivencia de la humanidad contra el
+                        Covenant y el descubrimiento de los misteriosos anillos Halo.
+                    </p>
+                    <p>
+                        Este título no solo destacó por su jugabilidad y narrativa, sino también por su innovador multijugador en red LAN,
+                        que se convirtió en un fenómeno social en las universidades y entre amigos.
+                    </p>
+                    <p>
+                        Su icónica banda sonora, armas como el rifle de asalto MA5B y el combate vehicular marcaron el estándar para los shooters modernos.
+                    </p>
+                    <p>
+                        <strong>Fecha de lanzamiento:</strong> 15 de noviembre de 2001<br>
+                        <strong>Desarrollador:</strong> Bungie<br>
+                        <strong>Plataformas:</strong> Xbox, PC, Xbox One (MCC)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección adicional con más información -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h2>Detalles adicionales</h2>
+                    <p><strong>Innovación y legado:</strong> Halo CE sentó las bases para los shooters en consola con controles intuitivos y un diseño de niveles abierto que fomentaba la exploración y el combate táctico.</p>
+                    <p><strong>Historia y ambientación:</strong> El juego sigue al Jefe Maestro y la inteligencia artificial Cortana en el misterioso anillo Halo, mientras luchan contra el Covenant y descubren secretos que amenazan a toda la galaxia.</p>
+                    <p><strong>Multijugador:</strong> Fue pionero en el juego en LAN y modos competitivos como Capture the Flag y Slayer, consolidando una comunidad apasionada que perdura hasta hoy.</p>
+                    <p><strong>Sonido y música:</strong> La banda sonora, compuesta por Martin O'Donnell y Michael Salvatori, es un elemento icónico que realza la atmósfera épica del juego.</p>
+                    <p><strong>Impacto cultural:</strong> Halo CE no solo fue un éxito comercial, sino que influenció numerosos juegos posteriores y se convirtió en un fenómeno cultural, lanzando una franquicia multimillonaria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de tabla con datos técnicos -->
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <!-- Imagen lateral -->
+            <div class="col-md-6 mb-4">
+                <img src="HaloCEIMG1.jpg" class="img-fluid rounded" alt="Halo CE Gameplay">
+            </div>
+
+            <!-- Tabla informativa -->
+            <div class="col-md-6 d-flex justify-content-end align-items-center">
+                <div class="table-responsive" style="max-width: 320px;">
+                    <table class="table table-borderless text-white" style="background-color: transparent; font-size: 0.85rem; line-height: 1.2;">
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">Información General</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="text-center">Desarrollador</td><td class="text-center">Bungie</td></tr>
+                            <tr><td class="text-center">Distribuidor</td><td class="text-center">Microsoft Game Studios</td></tr>
+                            <tr><td class="text-center">Compositor</td><td class="text-center">Martin O'Donnell, Michael Salvatori</td></tr>
+
+                            <tr>
+                                <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">Datos del Juego</th>
+                            </tr>
+                            <tr><td class="text-center">Género</td><td class="text-center">FPS, ciencia ficción</td></tr>
+                            <tr><td class="text-center">Modos</td><td class="text-center">Un jugador, Multijugador LAN</td></tr>
+                            <tr><td class="text-center">Clasificaciones</td><td class="text-center">ESRB: M, PEGI: 16</td></tr>
+
+                            <tr>
+                                <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">Plataformas y Hardware</th>
+                            </tr>
+                            <tr><td class="text-center">Plataformas</td><td class="text-center">Xbox, PC, Xbox One (MCC)</td></tr>
+                            <tr><td class="text-center">Formato</td><td class="text-center">DVD / CD-ROM</td></tr>
+                            <tr><td class="text-center">Entrada</td><td class="text-center">Controlador Xbox, Teclado/Mouse</td></tr>
+
+                            <tr>
+                                <th colspan="2" class="text-center" style="background-color: rgba(160, 155, 155, 0.418); font-weight: bold;">Lanzamiento</th>
+                            </tr>
+                            <tr><td class="text-center">EU</td><td class="text-center">14 de marzo de 2002</td></tr>
+                            <tr><td class="text-center">JP</td><td class="text-center">24 de abril de 2002</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        <!-- Imagen lateral -->
+            <div class="col-md-6 mb-4">
+                <img src="HaloCEIMG2.jpg" class="img-fluid rounded" alt="Halo CE Gameplay">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+            
+
+    <!-- Pie de página -->
+    <footer class="footer text-center">
+        &copy; 2025 Halo Universe. Inspirado en HaloCE.org
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
